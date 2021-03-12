@@ -20,13 +20,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-Mobile: [](./solution-img/mobile.png)
-Desktop: [](./solution-img/desktop.png)
+Mobile: [./solution-img/mobile.png](./solution-img/mobile.png)
+Desktop: [./solution-img/desktop.png](./solution-img/desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-sass-R8CIpNlhN)
-- Live Site URL: [Add live site URL here](https://devmarco02-profile-card-component-main.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-sass-R8CIpNlhN](https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-sass-R8CIpNlhN)
+- Live Site URL: [https://devmarco02-profile-card-component-main.netlify.app/](https://devmarco02-profile-card-component-main.netlify.app/)
 
 ## My process
 
