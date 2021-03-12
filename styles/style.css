@@ -1,0 +1,161 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #19a2ae;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  color: #2d3248;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.bg-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.bg-container img {
+  overflow: hidden;
+}
+
+.bg-container .top-bg {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.bg-container .bottom-bg {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.hero {
+  height: calc(100vh - 52.8px);
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  position: relative;
+  margin: 12px;
+  width: 350px;
+  height: 400px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card .victor-img-container {
+  background-image: url("../images/image-victor.jpg");
+  background-position: center;
+  position: absolute;
+  top: 85px;
+  width: 106px;
+  height: 106px;
+  overflow: hidden;
+  border-radius: 53px;
+  border: 6px solid white;
+}
+
+.card .victor-name-age {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 75px;
+}
+
+.card .age {
+  padding-left: 8px;
+  font-weight: 400;
+  color: #6a6f81;
+}
+
+.card .place {
+  margin-bottom: 30px;
+  color: #6a6f81;
+  font-size: 16px;
+}
+
+.card .card-footer {
+  padding: 30px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  border-top: 1px solid #d6d6d6;
+  text-align: center;
+  margin: 0;
+}
+
+.card .card-footer p {
+  color: #6a6f81;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.attribution {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  font-size: 11px;
+  text-align: center;
+  color: black;
+}
+
+.attribution a {
+  color: #15008f;
+}
+/*# sourceMappingURL=style.css.map */
